@@ -1,0 +1,22 @@
+From 22b6eefba45fb5e8af065a940c351c498cbc5290 Mon Sep 17 00:00:00 2001
+From: hundredvisionsguy <cwinikka@gmail.com>
+Date: Mon, 1 May 2017 09:44:20 -0700
+Subject: [PATCH 2/2] fixing travis.yml
+
+---
+ .travis.yml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/.travis.yml b/.travis.yml
+index cb54d0a..fd196dd 100644
+--- a/.travis.yml
++++ b/.travis.yml
+@@ -4,4 +4,4 @@ python:
+   - "3.6"
+ cache: pip
+ install: "pip install -r requirements.txt"
+-script: python TestConeVolumeCalculator.py
++script: python TestHeatIndexCalculator.py
+-- 
+2.7.1.windows.1
+
